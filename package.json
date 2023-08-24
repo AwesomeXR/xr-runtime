@@ -1,5 +1,5 @@
 {
-  "name": "@xr/runtime",
+  "name": "xr-runtime",
   "version": "1.0.30",
   "files": [
     "dist"
@@ -10,7 +10,7 @@
     "build": "gulp build",
     "deploy": "gulp deploy",
     "ci": "prettier --check src && tsc -p tsconfig.json --noEmit",
-    "release": "npm run ci && npm run build && npm run deploy && release-it",
+    "release": "npm run ci && npm run build && release-it && npm run deploy && gulp emitDist",
     "build:report": "webpack -c webpack.analyze.js --progress"
   },
   "dependencies": {

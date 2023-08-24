@@ -81,7 +81,7 @@ function run_tscEmitType(cb) {
 }
 
 const emitDist = parallel(createCopyTask('h5'));
-const build = series(clean, run_webpack, run_tscEmitType, emitDist);
+const build = series(clean, run_webpack, run_tscEmitType);
 
 function deploy(cb) {
   exec(
