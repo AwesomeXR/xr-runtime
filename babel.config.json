@@ -1,0 +1,15 @@
+{
+  // 必须使用 babel.config.json 这个文件名才能编译 node_modules
+  // [使用Babel 7.x 时如何编译 node\_modules - 掘金](https://juejin.cn/post/7005849295693807624)
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["> 1%"]
+        },
+        "include": ["transform-optional-chaining", "transform-class-properties", "transform-private-methods"]
+      }
+    ]
+  ]
+}

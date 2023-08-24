@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "declaration": true,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "lib": ["es2017", "DOM"],
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
