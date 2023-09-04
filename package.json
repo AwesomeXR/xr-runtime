@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "xr-core": "^1.0.24",
-    "xr-impl-bjs": "^1.0.27"
+    "xr-impl-bjs": "^1.0.28"
   },
   "devDependencies": {
     "@babel/core": "^7.22.6",
